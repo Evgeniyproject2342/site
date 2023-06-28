@@ -6,7 +6,11 @@ a:visited{
     color: white;
 }
 
-
+.podir{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
     
 .header{
     position: fixed;
@@ -297,5 +301,21 @@ form{
     }
     
     
+    @media(max-width: 700px){
+        main{
+            visibility: hidden;
+        }
+        header{
+            visibility: hidden;
+        }
+        section{
+            visibility: hidden;
+        }
+    }
     
-    @media(min)
+    
+    @media(min-width: 701px){
+        .podir{
+            color: white;
+        }
+    }
