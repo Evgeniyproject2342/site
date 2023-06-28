@@ -1,0 +1,301 @@
+.page_one{
+    height: 100vh;
+}
+
+a:visited{
+    color: white;
+}
+
+
+    
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background: black;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+    
+
+.ul_menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.logo>a{
+    width: 40%;
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+}
+.logo,.ul_menu>li,.materials,.send{
+    transition: transform 0.3s ease;
+}
+.logo:hover,.materials:hover,.send:hover{
+    transform: scale(1.2);
+}
+.ul_menu>li:hover{
+    transform: scale(1.2);
+}
+
+.menu{
+    width: 40%;
+}
+
+
+.menu>ul>li>a{
+    font-family: 'Spectral', serif;
+    font-size: 22px;
+    color: #BDBDBD;
+}
+
+.main{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+}
+.main_fst_part{
+    width: 50%;
+    text-align: center;
+}
+.main_second_part{
+    width: 50%;
+}
+
+.main_text{
+    font-family: 'Spectral', serif;
+    line-height: 40px;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+.fst_part_img{
+    width: 600px;
+}
+
+.talk{
+    width: 200px;
+}
+
+.main_second_part{
+    position: relative;
+}
+
+.zhen{
+    position: absolute;
+    width: 400px;
+    top: -30px;
+    right: 10px;
+}
+
+.talk{
+    position: absolute;
+    top: -2px;
+    right: 290px;
+}
+.page_two{
+    height: 100vh;
+}
+.wrapper_page_two{
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+
+.page_two_text{
+    margin-top: -100px;
+    font-family: 'Spectral', serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.example{
+    font-family: 'Spectral', serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.materials{
+    font-family: 'Spectral', serif;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.button_mat{
+    display: flex;
+    justify-content: center;
+}
+
+.page_three{
+    height: 50vh;
+    margin-bottom: 100px;
+}
+
+.zag{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.retangle{
+    width: 60%;
+    height: 70%;
+    border: 4px solid black;
+    border-radius: 18px;
+    margin: 0 auto;
+}
+
+
+.page_four{
+    height: 80vh;
+}
+
+.maybe{
+    font-family: font-family: 'Spectral', serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.email, .link{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 18px;
+    color: white;
+    padding: 14px;
+    height: 6vh;
+    width: 20%;
+}
+
+.send{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 18px;
+    color: white;
+    font-size: 15px;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   color:    white;
+    font-size: 18px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+    font-size: 18px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+    font-size: 18px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    white;
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.vk_and_tg{
+    display: flex;
+    justify-content: center;
+}
+.vk{
+    margin-right: 20px;
+}
+
+
+
+@media(max-width:1200px){
+    .zhen{
+        width: 300px;
+}
+    .fst_part_img{
+        width: 400px;
+    }
+    .talk{
+        width: 150px;
+        right: 210px;
+    
+}
+    
+    
+    @media(max-width: 990px){
+        #one, #two, #three{
+            font-size: 17px;
+        }
+        #logo{
+            font-size: 24px;
+        }
+    }
+    
+    
+    @media(max-width: 1000px){
+        #one, #two, #three{
+            font-size: 17px;
+        }
+    }
+    
+    
+    @media(max-width: 765px){
+        #one, #two, #three{
+            font-size: 15px;
+
+        }
+        #logo{
+            font-size: 20px;
+        }
+    }
+    
+    @media(max-width: 540px){
+        .main_second_part{
+            display: none;
+        }
+         
+        .main_fst_part{
+            margin: 0 auto;
+        }
+        .fst_part_img{
+            margin-left: -40px;
+            margin-top: -40px;
+        }
+        
+        .page_two{
+            height: 100vh;
+            margin-bottom: 100px;
+        }
+        #logo{
+            font-size: 17px;
+        }
+        
+        #one, #two, #three{
+            font-size: 12px;
+            font-family: bold;
+        }
+        
+    }
+    
+    
+    
+    @media(min)
